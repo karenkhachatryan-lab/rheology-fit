@@ -2,6 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/status-in%20development-orange.svg)](#project-status)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21713809.svg)](https://doi.org/10.5281/zenodo.21713809)
 
 Fit non-Newtonian flow curve models (Power-law, Herschel-Bulkley, Casson) to shear stress / shear rate data, with objective model selection and flow-behavior classification — for sauces, purées, doughs, and other non-Newtonian food fluids.
 
@@ -65,7 +66,7 @@ Early development (v0.1.0) — MVP scope: 3 models, CSV loader, AIC-based model 
 
 ## Citing this software
 
-If you use `rheology-fit` in your research, please cite it — see [`CITATION.cff`](CITATION.cff) or run `rheology-fit cite` for the formatted citation and BibTeX entry.
+If you use `rheology-fit` in your research, please cite it — see [`CITATION.cff`](CITATION.cff) or run `rheology-fit cite` for the formatted citation and BibTeX entry. DOI: [10.5281/zenodo.21713809](https://doi.org/10.5281/zenodo.21713809).
 
 ## Contributing and support
 
