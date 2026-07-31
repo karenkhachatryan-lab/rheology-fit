@@ -26,6 +26,7 @@ Write-Host "Building rheology-fit-gui.exe with PyInstaller..."
     --name rheology-fit-gui `
     --onedir `
     --windowed `
+    --icon "$repoRoot\resources\icon.ico" `
     --collect-all customtkinter `
     --noconfirm `
     --distpath dist `
