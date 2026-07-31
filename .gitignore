@@ -18,6 +18,10 @@ htmlcov/
 # Docs
 site/
 
+# Zenodo preprint/report source, PDF, and build artifacts (deposited directly
+# on Zenodo, not tracked in this software repo)
+paper/preprint/
+
 # PyInstaller build output
 packaging/*.spec
 *.zip
