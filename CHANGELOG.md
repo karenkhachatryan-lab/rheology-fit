@@ -2,6 +2,12 @@
 
 All notable changes to this project are documented here. Versioning follows [Semantic Versioning](https://semver.org/).
 
+## [0.2.0] - 2026-07-31
+
+### Added
+- Optional CustomTkinter desktop GUI (`rheology-fit gui`): File/Edit/Help menu bar, project save/load (`.rheofitproj`), Cite and About dialogs, live plot/metrics view.
+- PyInstaller build script (`packaging/build_exe.ps1`) for a standalone Windows executable, distributed as a `.zip` on GitHub Releases.
+
 ## [0.1.0] - 2026-07-31
 
 ### Added

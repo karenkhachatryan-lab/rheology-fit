@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "rheology-fit"
-version = "0.1.0"
+version = "0.2.0"
 description = "Fit non-Newtonian flow curve models (Power-law, Herschel-Bulkley, Casson) to shear stress / shear rate data for food rheology."
 readme = "README.md"
 license = "MIT"

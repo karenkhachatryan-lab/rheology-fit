@@ -52,6 +52,17 @@ Print citation information:
 rheology-fit cite
 ```
 
+### Desktop GUI (optional)
+
+```bash
+pip install "rheology-fit[gui]"
+rheology-fit gui
+```
+
+Opens a desktop window (CustomTkinter) to load a CSV, pick models, view the flow-curve plot and metrics live, and save the PDF/PNG/JSON outputs — no command-line arguments needed.
+
+For users without Python, a prebuilt standalone Windows GUI is attached as a `.zip` to each [GitHub Release](https://github.com/karenkhachatryan-lab/rheology-fit/releases/latest) — download, extract, and run `rheology-fit-gui.exe`, no installation needed. To build it yourself instead, see `packaging/build_exe.ps1` (PyInstaller).
+
 ## Models
 
 - **Power-law** (Ostwald-de Waele): τ = K·γ̇ⁿ — 2 parameters, no yield stress.
@@ -62,7 +73,7 @@ Unlike `isotherm-fit`'s BET model, all three models here are fit on the full dat
 
 ## Project status
 
-Early development (v0.1.0) — MVP scope: 3 models, CSV loader, AIC-based model selection, PDF/PNG + JSON report generation, CLI via Typer. See [CHANGELOG.md](CHANGELOG.md).
+Early development (v0.2.0) — MVP scope: 3 models, CSV loader, AIC-based model selection, PDF/PNG + JSON report generation, CLI via Typer, optional CustomTkinter desktop GUI. See [CHANGELOG.md](CHANGELOG.md).
 
 ## Citing this software
 
