@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+dist_pypi/
+.venv/
+venv/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Docs
+site/
+
+# Reports generated at runtime
+*.report.pdf
+*.report.png
+/output/
+examples/*_report.pdf
+examples/*_report.png
+examples/*_report.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+type: software
+title: "rheology-fit: fitting non-Newtonian flow curve models to shear stress/rate data for food rheology"
+version: 0.1.0
+date-released: "2026-07-31"
+authors:
+  - family-names: Khachatryan
+    given-names: Karen
+    orcid: "https://orcid.org/0000-0001-7823-5406"
+    affiliation: "Laboratory of Nanotechnology and Nanomaterials, Faculty of Food Technology, University of Agriculture in Krakow, Al. Mickiewicza 21, 31-120 Krakow, Poland"
+license: MIT
+repository-code: "https://github.com/karenkhachatryan-lab/rheology-fit"
+keywords:
+  - rheology
+  - non-Newtonian fluids
+  - flow curve
+  - Herschel-Bulkley
+  - Casson model
+  - power law
+  - food science
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.PENDING"
+    description: "This DOI represents all versions and will resolve to the latest release once minted on Zenodo."
